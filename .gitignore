@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Optional: remove test coverage reports
+coverage/
+
+# Optional: local IDE settings
+.idea/
+
+# Optional: backup files
+*.bak
+*.tmp
+*.swp
+
+# Optional: compiled typescript
+*.tsbuildinfo
+
+# Optional: Mac system files
+.AppleDouble
+.LSOverride
+
+# Optional: debug folders
+debug/
+
+# Optional: dotenv backups
+.env.backup
+
+# Optional: ignore eslint cache
+.eslintcache
+
+# Optional: ignore local database
+*.sqlite
+
+# Specific to your project
+client/node_modules/
+client/.cache/
+server/node_modules/
+server/.cache/
